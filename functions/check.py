@@ -1,4 +1,4 @@
-def game(card1, card2):
+def check(card1, card2):
 	cardnumber1 = card1.split(" ")[0]
 	cardnumber2 = card2.split(" ")[0]
 

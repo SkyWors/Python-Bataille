@@ -23,4 +23,4 @@ def display(player1, player2):
 
 		print(f"{value1}{space}{value2}")
 
-	print()
+	print(f"{Fore.BLUE}{len(player1)} cartes\t\t{len(player2)} cartes\n")
