@@ -9,7 +9,6 @@ def gaincard(player, card1, card2, temp):
 		player.append(card2)
 		player.append(card1)
 
-	if (len(temp) > 0):
-		for card in temp:
-			player.append(card)
-			temp.remove(card)
+	while temp:
+		card = temp.pop(0)
+		player.append(card)

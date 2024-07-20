@@ -27,8 +27,8 @@ while (len(cardlist) > 0):
 display(player1Card, player2Card)
 
 while True:
-	turn = turn +1
- 
+	turn +=1
+
 	if (len(player1Card) == 0):
 		print(f"{Fore.YELLOW} Gagnant : Joueur 2 ({turn} tours - {round((time.time() - start)*1000)}ms)")
 		break
